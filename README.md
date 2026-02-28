@@ -3,12 +3,14 @@ CCDSALG MCO1: Convex Hull
 
 ● How to compile from the command line
 
-C:\MCO> gcc -Wall main1.c graham_scan1.c graham_helper.c stack.c sort.c -o main1.exe
+cd "MCO1 Group 12"
 
-C:\MCO> gcc -Wall main2.c graham_scan2.c graham_helper.c stack.c sort.c -o main2.exe
+Main 1: gcc -Wall main1.c graham_scan1.c graham_helper.c stack.c sort.c -o main1.exe
+
+Main 2: gcc -Wall main2.c graham_scan2.c graham_helper.c stack.c sort.c -o main2.exe
 
 ● How to run from command line
 
-C:\MCO>main1
+".\main1"
 
-C:\MCO>main2
+".\main2"
